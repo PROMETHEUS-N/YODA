@@ -78,7 +78,7 @@ by continuously learning and achieving industry-recognized HashiCorp certificati
 
 The below image shows the Road Map for HashiCorp Certified Certifications.
 
-![HashiCorp Roadmap](./HashiCorpRoadMap.jpg)
+![HashiCorp Roadmap](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/blob/main/RoadMaps/HashiCorpRoadMap.jpg?raw=true)
 
 ---
 
