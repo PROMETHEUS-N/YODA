@@ -29,19 +29,19 @@ The below sections show the certifications completed successfully ✅
 
 ### ✅ AZ-104 — Azure Administrator Associate
 🏅 Certification:  
-[Azure Administrator Associate](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/tree/Microsoft_Certifications/AZ-104)
+[Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/)
 
 ---
 
 ### ✅ AZ-400 — Designing and Implementing Microsoft DevOps Solutions
 🏅 Certification:  
-[Microsoft DevOps Engineer Expert](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/tree/Microsoft_Certifications/AZ-400)
+[Microsoft DevOps Engineer Expert](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/)
 
 ---
 
 ### ✅ GH-200 — GitHub Actions
 🏅 Certification:  
-[GitHub Actions Certification](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/tree/Microsoft_Certifications/GH-200)
+[GitHub Actions Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-actions/)
 
 ---
 
@@ -49,7 +49,7 @@ The below sections show the certifications completed successfully ✅
 
 ### ✅ Terraform Associate-004
 🏅 Certification:  
-[HashiCorp Certified: Terraform Associate-004](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/tree/Hashi_Corp_Certifications/Terraform_Associate_004)
+[HashiCorp Certified: Terraform Associate-004](https://www.hashicorp.com/certification/terraform-associate)
 
 ---
 
@@ -118,28 +118,24 @@ by continuously learning and achieving industry-recognized certifications.
 ---
 
 # ☁️ Azure Certification RoadMap
-The below image shows the Road Map for Microsoft Azure Certified Certifications.
 
 ![Azure Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/AzureRoadMap.jpg)
 
 ---
 
 # 🐙 GitHub Certification RoadMap
-The below image shows the Road Map for Microsoft GitHub Certified Certifications.
 
 ![GitHub Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/GitHubRoadMap.jpg)
 
 ---
 
 # 🏗️ HashiCorp Certification RoadMap
-The below image shows the Road Map for HashiCorp Certified Certifications.
 
 ![HashiCorp Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/HashiCorpRoadMap.jpg)
 
 ---
 
 # ☸️ Kubernetes / AKS Certification RoadMap
-The below image shows the Road Map for Kubernetes and AKS related Certifications.
 
 ![AKS Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/AKSRoadMap.jpg)
 
