@@ -16,5 +16,8 @@ This Repository is created for Tracking the Learnings and Certifications That ha
 ### AZ-400
   - Designing and Implementing Microsoft DevOps Solutions
 
+### GH-200
+  - GitHub Actions
+
 ## Hashi Corp
   - Terraform Associate-004 
