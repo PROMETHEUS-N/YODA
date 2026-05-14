@@ -92,14 +92,12 @@ Focused path toward becoming:
 
 # ☁️ Azure Certification Roadmap
 
-![Azure Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/AzureRoadMap.jpg)
+![Azure Roadmap](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/blob/main/RoadMaps/AzureRoadMap.jpg?raw=true)
 
----
 
 # 🐙 GitHub Certification Roadmap
 
-![GitHub Roadmap](https://raw.githubusercontent.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/main/RoadMaps/GitHubRoadMap.jpg)
-
+![GitHub Roadmap](https://github.com/Kureti-Venkat-Nishit-Pvt/Learning_Career/blob/main/RoadMaps/GitHubRoadMap.jpg?raw=true)
 ---
 
 <div align="center">
