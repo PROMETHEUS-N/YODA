@@ -109,39 +109,72 @@ flowchart TB
 
 Each roadmap is maintained as a **single Markdown file**.
 
-```text
-YODA/
-│
-├── README.md
-│
-└── Roadmaps/
-    │
-    ├── Cloud/
-    │   ├── Azure.md
-    │   └── AWS.md
-    │
-    ├── DevOps/
-    │   ├── DevOps.md
-    │   ├── DevSecOps.md
-    │   └── Platform_Engineering.md
-    │
-    ├── Artificial_Intelligence/
-    │   ├── Generative_AI.md
-    │   └── Agentic_AI.md
-    │
-    └── Software_Engineering/
-        ├── Python.md
-        └── Web_Development.md
+```mermaid
+flowchart TB
+    YODA["🧭 YODA"]
+    YODA --> CLOUD
+    YODA --> DEVOPS
+    YODA --> AI
+    YODA --> SE
+    %% Cloud
+    subgraph CLOUD["☁️ Cloud"]
+        direction LR
+        AZURE["📄 Azure.md"]
+        AWS["📄 AWS.md"]
+    end
+    %% DevOps
+    subgraph DEVOPS["♾️ DevOps"]
+        direction LR
+        DEV["📄 DevOps.md"]
+        DEVSEC["📄 DevSecOps.md"]
+        PLATFORM["📄 Platform_Engineering.md"]
+    end
+    %% Artificial Intelligence
+    subgraph AI["🤖 Artificial Intelligence"]
+        direction LR
+        GENAI["📄 Generative_AI.md"]
+        AGENTIC["📄 Agentic_AI.md"]
+    end
+    %% Software Engineering
+    subgraph SE["💻 Software Engineering"]
+        direction LR
+        PYTHON["📄 Python.md"]
+        WEB["📄 Web_Development.md"]
+    end
+
+    %% Root styling
+    style YODA fill:#233D4C,color:#FFFFFF,stroke:#FD802E,stroke-width:4px
+
+    %% Topic containers
+    style CLOUD fill:#E8F4FF,color:#233D4C,stroke:#0078D4,stroke-width:3px
+    style DEVOPS fill:#FDECEA,color:#233D4C,stroke:#D24939,stroke-width:3px
+    style AI fill:#F3EEFA,color:#233D4C,stroke:#7B61A8,stroke-width:3px
+    style SE fill:#EEF6FC,color:#233D4C,stroke:#3776AB,stroke-width:3px
+
+    %% Cloud files
+    style AZURE fill:#FFFFFF,color:#233D4C,stroke:#0078D4,stroke-width:2px
+    style AWS fill:#FFFFFF,color:#233D4C,stroke:#FF9900,stroke-width:2px
+
+    %% DevOps files
+    style DEV fill:#FFFFFF,color:#233D4C,stroke:#D24939,stroke-width:2px
+    style DEVSEC fill:#FFFFFF,color:#233D4C,stroke:#D24939,stroke-width:2px
+    style PLATFORM fill:#FFFFFF,color:#233D4C,stroke:#D24939,stroke-width:2px
+
+    %% AI files
+    style GENAI fill:#FFFFFF,color:#233D4C,stroke:#7B61A8,stroke-width:2px
+    style AGENTIC fill:#FFFFFF,color:#233D4C,stroke:#7B61A8,stroke-width:2px
+    %% Software Engineering files
+    style PYTHON fill:#FFFFFF,color:#233D4C,stroke:#3776AB,stroke-width:2px
+    style WEB fill:#FFFFFF,color:#233D4C,stroke:#3776AB,stroke-width:2px
+
 ```
 
 Each roadmap file can contain:
 
-```text
-Roadmap
-   │
-   ├── 🖼️ Visual Roadmap
-   │
-   └── 🧠 Mermaid Mind Map
+```mermaid
+mindmap
+      🖼️ Visual Roadmap
+      🧠 Mermaid Mind Map
 ```
 
 ---
