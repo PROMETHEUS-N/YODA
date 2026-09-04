@@ -1,148 +1,386 @@
-# 🚀 Learning_Career Repository
+# 🧭 YODA
 
-<div align="center">
+> **Your Organized Development & Advancement**
 
-## 📚 Learning • 🏅 Certifications • 🚀 Career Growth
-
-</div>
-
----
-
-# 📖 About This Repository
-
-This repository is created for tracking:
-
-- 📚 Technical Learnings
-- 🏅 Certifications Completed
-- 🎯 Future Certification Goals
-- ☁️ Cloud & DevOps Career Progress
+![YODA](https://img.shields.io/badge/YODA-Roadmap%20Hub-233D4C?style=for-the-badge)
+![PROMETHEUS-N](https://img.shields.io/badge/PROMETHEUS--N-Engineering%20Ecosystem-FD802E?style=for-the-badge)
+![Roadmaps](https://img.shields.io/badge/Roadmaps-Technology%20Paths-4E9BCD?style=for-the-badge)
+![Mermaid](https://img.shields.io/badge/Mermaid-Mindmaps-FF3670?style=for-the-badge&logo=mermaid)
+![Public](https://img.shields.io/badge/Visibility-Public-success?style=for-the-badge)
 
 ---
 
-# 🏆 Completed Certifications
+## 🧭 About YODA
 
-The below sections show the certifications completed successfully ✅
+**YODA** is the public roadmap hub of the **PROMETHEUS-N** engineering ecosystem.
 
----
+It provides a visual representation of technology learning paths through:
 
-## ☁️ Microsoft Certified
+- 🗺️ Technology roadmaps
+- 🧠 Mermaid mind maps
+- 🌐 Learning-path overviews
+- 📈 Technology progression maps
 
-### ✅ AZ-104 — Azure Administrator Associate
-🏅 Certification:  
-[Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/)
+YODA is intentionally kept lightweight.
 
----
-
-### ✅ AZ-400 — Designing and Implementing Microsoft DevOps Solutions
-🏅 Certification:  
-[Microsoft DevOps Engineer Expert](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/)
+The detailed training, implementation, notes, experiments, and hands-on work are maintained in their respective repositories across the **PROMETHEUS-N** organization.
 
 ---
 
-### ✅ GH-200 — GitHub Actions
-🏅 Certification:  
-[GitHub Actions Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-actions/)
+# 🎯 Purpose
+
+```mermaid
+flowchart LR
+
+    A["📚 Learn"] --> B["🧭 Map"]
+    B --> C["🛠️ Build"]
+    C --> D["⚙️ Practice"]
+    D --> E["🚀 Advance"]
+
+    E --> A
+```
+
+**YODA maps the learning journey.  
+The individual repositories contain the actual work.**
 
 ---
 
-## 🏗️ HashiCorp Certified
+# 🧠 YODA Ecosystem
 
-### ✅ Terraform Associate-004
-🏅 Certification:  
-[HashiCorp Certified: Terraform Associate-004](https://www.hashicorp.com/certification/terraform-associate)
+```mermaid
+mindmap
+  root((YODA))
+    "Cloud"
+      Azure
+      AWS
 
----
+    "DevOps"
+      DevOps
+      Terraform
+      CI/CD
+      DevSecOps
+      Platform Engineering
 
-# 📌 Certification Progress Checklist
+    "Artificial Intelligence"
+      Generative AI
+      Agentic AI
+      AI Engineering
 
-## ☁️ Microsoft Azure Certifications
-- [x] <span style="color:limegreen"><strong> AZ-104 — Azure Administrator Associate</strong></span>
-- [x] <span style="color:limegreen"><strong> AZ-400 — Designing and Implementing Microsoft DevOps Solutions</strong></span>
-- [ ] AZ-305 — Azure Solutions Architect Expert
-- [ ] AZ-500 — Azure Security Engineer Associate
-
----
-
-## 🐙 GitHub Certifications
-- [x] <span style="color:limegreen"><strong> GH-200 — GitHub Actions</strong></span>
-- [ ] GH-900 — GitHub Foundations
-- [ ] GH-100 — GitHub Administration
-- [ ] GH-300 — GitHub Copilot
-- [ ] GH-500 — GitHub Advanced Security
-
----
-
-## 🏗️ HashiCorp Certifications
-- [x] <span style="color:limegreen"><strong> Terraform Associate-004</strong></span>
-- [ ] Vault Associate
-- [ ] Consul Associate
-- [ ] Terraform Professional
+    "Software Engineering"
+      Python
+      Web Development
+      Automation
+```
 
 ---
 
-## ☸️ Kubernetes / AKS Certifications
-- [ ] KCNA — Kubernetes and Cloud Native Associate
-- [ ] CKA — Certified Kubernetes Administrator
-- [ ] CKAD — Certified Kubernetes Application Developer
-- [ ] CKS — Certified Kubernetes Security Specialist
-- [ ] Microsoft AKS Specialization
+# 🗺️ Roadmap Categories
+
+```mermaid
+flowchart TB
+
+    Y["🧭 YODA"]
+
+    Y --> C["☁️ Cloud"]
+    Y --> D["♾️ DevOps"]
+    Y --> AI["🤖 Artificial Intelligence"]
+    Y --> S["💻 Software Engineering"]
+
+    C --> AZ["Azure"]
+    C --> AWS["AWS"]
+
+    D --> DEV["DevOps"]
+    D --> TF["Terraform"]
+    D --> CI["CI/CD"]
+    D --> SEC["DevSecOps"]
+
+    AI --> GEN["Generative AI"]
+    AI --> AG["Agentic AI"]
+    AI --> AIE["AI Engineering"]
+
+    S --> PY["Python"]
+    S --> WEB["Web Development"]
+    S --> AUTO["Automation"]
+```
 
 ---
 
-# 🎯 Career Goal
+# 📂 Repository Structure
 
-To become a highly skilled:
+Each roadmap is maintained as a **single Markdown file**.
 
-- ☁️ Cloud Engineer
-- 🚀 DevOps Engineer
-- ☸️ Kubernetes Administrator
-- 🏗️ Infrastructure Automation Engineer
+```text
+YODA/
+│
+├── README.md
+│
+└── Roadmaps/
+    │
+    ├── Cloud/
+    │   ├── Azure.md
+    │   └── AWS.md
+    │
+    ├── DevOps/
+    │   ├── DevOps.md
+    │   ├── DevSecOps.md
+    │   └── Platform_Engineering.md
+    │
+    ├── Artificial_Intelligence/
+    │   ├── Generative_AI.md
+    │   └── Agentic_AI.md
+    │
+    └── Software_Engineering/
+        ├── Python.md
+        └── Web_Development.md
+```
 
-by continuously learning and achieving industry-recognized certifications.
+Each roadmap file can contain:
+
+```text
+Roadmap
+   │
+   ├── 🖼️ Visual Roadmap
+   │
+   └── 🧠 Mermaid Mind Map
+```
 
 ---
 
-# 🛠️ Technologies Covered
+# ⚡ PROMETHEUS-N
 
-| Technology | Area |
+YODA is one part of the wider **PROMETHEUS-N** engineering ecosystem.
+
+```mermaid
+flowchart TB
+
+    P["⚡ PROMETHEUS-N"]
+
+    P --> Y["🧭 YODA"]
+    P --> A["☁️ APEX"]
+    P --> H["♾️ HAVOT"]
+    P --> D["🛠️ DRAGOT"]
+    P --> M["🤖 MECHAVIBE"]
+    P --> F["🔥 FIRESTORM"]
+    P --> K["🏗️ KNIGHT"]
+    P --> PM["🐍 PARSELMOUTH"]
+
+    Y --> Y1["Technology Roadmaps"]
+
+    A --> A1["AWS Training & Notes"]
+
+    H --> H1["DevOps Build Assignment"]
+    H --> H2["Terraform"]
+
+    D --> D1["DevOps Build Assignment"]
+    D --> D2["Terraform"]
+
+    M --> M1["AI Training & Notes"]
+
+    F --> F1["DevOps & Tooling"]
+
+    K --> K1["Terraform / Infrastructure as Code"]
+
+    PM --> PM1["Python Learning"]
+```
+
+---
+
+# 🧩 Repository Ecosystem
+
+```mermaid
+mindmap
+  root((PROMETHEUS-N))
+    "YODA"
+      "Technology Roadmaps"
+
+    "APEX"
+      "AWS Training & Notes"
+
+    "HAVOT"
+      "DevOps Build Assignment"
+      "Terraform"
+
+    "DRAGOT"
+      "DevOps Build Assignment"
+      "Terraform"
+
+    "MECHAVIBE"
+      "AI Training & Notes"
+
+    "FIRESTORM"
+      "DevOps"
+      "Tooling"
+
+    "KNIGHT"
+      "Terraform"
+      "Infrastructure as Code"
+
+    "PARSELMOUTH"
+      "Python Learning"
+```
+
+---
+
+# 🔄 Learning-to-Implementation Flow
+
+```mermaid
+flowchart LR
+
+    Y["🧭 YODA<br/>Roadmaps"]
+
+    Y --> L["📚 Learn"]
+    L --> T["🧪 Train"]
+    T --> B["🛠️ Build"]
+    B --> P["⚙️ Practice"]
+    P --> R["🚀 Real Implementation"]
+
+    R --> A["☁️ APEX"]
+    R --> H["♾️ HAVOT"]
+    R --> D["🛠️ DRAGOT"]
+    R --> M["🤖 MECHAVIBE"]
+    R --> F["🔥 FIRESTORM"]
+    R --> K["🏗️ KNIGHT"]
+    R --> PM["🐍 PARSELMOUTH"]
+```
+
+---
+
+# 🧠 Technology Landscape
+
+```mermaid
+mindmap
+  root((PROMETHEUS-N))
+    "Cloud Engineering"
+      AWS
+      Azure
+
+    "DevOps Engineering"
+      CI/CD
+      Terraform
+      Jenkins
+      DevSecOps
+
+    "Artificial Intelligence"
+      Generative AI
+      Agentic AI
+      AI Engineering
+
+    "Software Engineering"
+      Python
+      Web Development
+      Automation
+
+    "Learning & Development"
+      Training
+      Roadmaps
+      Practical Assignments
+      Hands-on Engineering
+```
+
+---
+
+# 📌 Repository Roles
+
+| Repository | Focus |
 |---|---|
-| ☁️ Microsoft Azure | Cloud Computing |
-| 🐙 GitHub | Source Control & CI/CD |
-| 🏗️ Terraform | Infrastructure as Code |
-| ☸️ Kubernetes / AKS | Container Orchestration |
-| 🔄 Azure DevOps | CI/CD Pipelines |
-| 🐳 Docker | Containerization |
-| 🖥️ Linux | System Administration |
-| 📜 IaC | Automation |
+| **YODA** | 🧭 Public technology roadmaps |
+| **APEX** | ☁️ AWS training & notes |
+| **HAVOT** | ♾️ DevOps build assignment using Terraform |
+| **DRAGOT** | 🛠️ DevOps build assignment using Terraform |
+| **MECHAVIBE** | 🤖 AI training & notes |
+| **FIRESTORM** | 🔥 DevOps and tooling ecosystem |
+| **KNIGHT** | 🏗️ Terraform & Infrastructure as Code |
+| **PARSELMOUTH** | 🐍 Python learning |
 
 ---
 
-# ☁️ Azure Certification RoadMap
+# 🌐 Public Learning Model
 
-![Azure Roadmap](./RoadMaps/AzureRoadMap.jpg)
+```mermaid
+flowchart TD
+
+    Y["🧭 YODA<br/>Roadmaps"]
+
+    Y --> C["☁️ Cloud"]
+    Y --> D["♾️ DevOps"]
+    Y --> AI["🤖 AI"]
+    Y --> S["💻 Software Engineering"]
+
+    C --> APEX["APEX"]
+    D --> HAVOT["HAVOT"]
+    D --> DRAGOT["DRAGOT"]
+    AI --> MECHA["MECHAVIBE"]
+    S --> PARSE["PARSELMOUTH"]
+
+    HAVOT --> X["🧪 Hands-on"]
+    DRAGOT --> X
+    APEX --> X
+    MECHA --> X
+    PARSE --> X
+
+    X --> E["🚀 Engineering Practice"]
+```
 
 ---
 
-# 🐙 GitHub Certification RoadMap
+# 🗂️ What YODA Contains
 
-![GitHub Roadmap](./RoadMaps/GitHubRoadMap.jpg)
+### ✅ Included
+
+- 🗺️ Technology roadmaps
+- 🧠 Mermaid mind maps
+- 📊 Visual learning paths
+- 🌐 Public technology progression maps
+
+### ❌ Not Included
+
+- ❌ Personal certification records
+- ❌ Resume information
+- ❌ Company training certificates
+- ❌ Detailed technical notes
+- ❌ Project implementation documentation
+- ❌ General resource collections
+
+Those areas belong in their appropriate repositories within the **PROMETHEUS-N** ecosystem.
 
 ---
 
-# 🏗️ HashiCorp Certification RoadMap
+# 🧭 Roadmap Philosophy
 
-![HashiCorp Roadmap](./RoadMaps/HashiCorpRoadMap.jpg)
+```text
+                    ┌─────────────────┐
+                    │      YODA       │
+                    │  MAP THE PATH   │
+                    └────────┬────────┘
+                             │
+             ┌───────────────┼───────────────┐
+             │               │               │
+          CLOUD           DEVOPS             AI
+             │               │               │
+             └───────────────┼───────────────┘
+                             │
+                    ┌────────▼────────┐
+                    │     BUILD       │
+                    └────────┬────────┘
+                             │
+                    ┌────────▼────────┐
+                    │    PRACTICE     │
+                    └────────┬────────┘
+                             │
+                    ┌────────▼────────┐
+                    │    ADVANCE      │
+                    └─────────────────┘
+```
 
 ---
 
-# ☸️ Kubernetes / AKS Certification RoadMap
+## ⚡ YODA
 
-![AKS Roadmap](./RoadMaps/AKSRoadMap.jpg)
+> **Map the path. Learn the technology. Build the capability.**
 
 ---
 
-<div align="center">
+### PROMETHEUS-N
 
-## ⭐ Keep Learning | Keep Building | Keep Growing ⭐
+**Learn → Map → Train → Build → Practice → Advance**
 
-</div>
